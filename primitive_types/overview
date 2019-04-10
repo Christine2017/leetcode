@@ -1,0 +1,20 @@
+1. >> : right shift: /2
+eg. 2 >> 1 = 1 => 10 >> 1 = 01
+
+2. << : left shift, *2
+eg. 2 << 1 = 4 => 10 << 1 = 100
+
+3. a & 1
+test last bit
+return 0 if a's last bit == 0
+return 1 if a's last bit == 1
+
+4. ^ : xor
+0^0 = 0, 0^1 = 1, 1^1 = 0
+calculate two bit' sum is odd/even
+
+5. n & (n - 1) => delete the last 1
+eg. n  = 10, bin(10) = 1010, n - 1 = 1001, n & (n - 1) = 1000
+	n = 1000, n - 1 = 0111 => n & (n - 1) = 0
+
+
